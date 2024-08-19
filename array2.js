@@ -1,5 +1,5 @@
 const lista=["Monica","Arthur","Pietro"]
-for(i = 0; i <= lista.lengeth;itt){
+for(i = 0; i <= lista.lengeth;i++){
     if(lista[i]== "Arthur"){
         console.log("Existe")
         console.log("indice:" + i)
