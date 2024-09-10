@@ -1,0 +1,8 @@
+const usuarios = [
+    {nome: "Ana", idade: 32},
+    {nome: "mila", idade: 28},
+    {nome: "felipe", idade: 40}
+];
+
+const ana = usuarios.find(usuario => usuario.nome ===  "Ana");
+console.log(ana);
